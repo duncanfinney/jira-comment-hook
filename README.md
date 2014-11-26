@@ -3,6 +3,9 @@ jira-comment-hook
 
 A GO slackbot that polls and forwards Jira comments
 
+###[Associated Blog Post](http://duncanfinney.github.io/2014/11/23/creating-a-slack-bot-for-jira-comments/)
+
+
 Usage
 =====
 

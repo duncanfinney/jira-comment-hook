@@ -18,6 +18,7 @@ git clone git@github.com:duncanfinney/jira-comment-hook.git
 git push heroku
 heroku config:set SLACK_WEBHOOK=https://hooks.slack.com/services/XXXXXXXX/XXXXXXXX/XXXXXXXXXXXXXXX
 heroku config:set JIRA_URL=https://yourinstance.atlassian.net
-heroku config:set JIRA_USERNAME=username
-heroku config:set JIRA_PASSWORD
+heroku config:set JIRA_USERNAME=duncan
+heroku config:set JIRA_PASSWORD=1337JiraPass
+heroku ps:scale worker=1
 ```

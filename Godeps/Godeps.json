@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/duncanfinney/jira-comment-hook",
+	"GoVersion": "go1.3.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/parnurzeal/gorequest",
+			"Comment": "v0.2.1-6-g345adb4",
+			"Rev": "345adb424b976a7ad7cb4f08a1dda3ecb1db5a92"
+		}
+	]
+}

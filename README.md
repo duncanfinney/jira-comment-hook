@@ -10,11 +10,12 @@ Usage
 =====
 
 1. Add new slack incoming webhook: https://l11.slack.com/services/new/incoming-webhook
-2. Register with heroku (free GO hosting)
+2. Register with heroku (free) and set up SSH deploy [tutorial](https://devcenter.heroku.com/articles/keys)
 3. Deploy:
 
 ```
 git clone git@github.com:duncanfinney/jira-comment-hook.git
+git remote add heroku git@heroku.com:heroku-instance.git
 git push heroku
 heroku config:set SLACK_WEBHOOK=https://hooks.slack.com/services/XXXXXXXX/XXXXXXXX/XXXXXXXXXXXXXXX
 heroku config:set JIRA_URL=https://yourinstance.atlassian.net

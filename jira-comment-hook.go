@@ -165,7 +165,7 @@ func main() {
 	SyncSlackMessages(lastSyncTime)
 	lastSyncTime = time.Now()
 
-	//now do every 15 seconds
+	//now do every 10 seconds
 	c := time.Tick(10 * time.Second)
 	for now := range c {
 		SyncSlackMessages(lastSyncTime)
